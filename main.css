@@ -1,0 +1,53 @@
+.body {
+  max-width: 1140px;
+  font-family: Poppins;
+  height: auto;
+  margin: auto;
+  margin-top: 24px;
+}
+.heroSection {
+  display: flex;
+  align-items: center;
+  padding: 84px;
+  padding-left: auto;
+  padding-right: auto;
+}
+.textInputAndButton {
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  font-weight: 500;
+}
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.textToConvert {
+  max-width: 600px;
+  min-width: 360px;
+  min-height: 120px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #eaeaea;
+}
+.convert {
+  margin: 24px 0px;
+  background-color: #f5e050;
+  color: #000000;
+  font-family: poppins;
+  font-weight: 600;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 4px;
+  
+}
+img {
+  max-width: 480px;
+  min-width: 320px;
+}
