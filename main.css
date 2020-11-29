@@ -1,5 +1,6 @@
 .body {
   max-width: 1140px;
+  min-width: 320px;
   font-family: Poppins;
   height: auto;
   margin: auto;
@@ -7,23 +8,31 @@
 }
 .heroSection {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  padding: 84px;
+  padding-top: 72px;
+  justify-content: space-between;
+  padding-bottom: 36px;
   padding-left: auto;
   padding-right: auto;
 }
 .textInputAndButton {
   align-items: center;
+  align-content: center;
+  width: 45%;
+  min-width: 360px;
   justify-content: space-between;
 }
+
 h1 {
   font-weight: 500;
 }
 em {
   font-weight: bold;
   font-style: normal;
+  color: #000000;
 }
-.buttons {
+.button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -34,6 +43,7 @@ em {
   min-height: 120px;
   border-radius: 4px;
   border-style: solid;
+  display: block;
   border-color: #eaeaea;
 }
 .convert {
@@ -45,9 +55,15 @@ em {
   padding: 8px 24px;
   border: none;
   border-radius: 4px;
-  
 }
 img {
-  max-width: 480px;
-  min-width: 320px;
+  width: 45%;
+  min-width: 360px;
+}
+.outputText {
+  max-width: 100%;
+  min-width: 360px;
+  max-height: fit-content;
+  text-align: center;
+  color: #3b3b3b;
 }

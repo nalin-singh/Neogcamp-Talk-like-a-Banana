@@ -1,8 +1,11 @@
-//message-showcase
-console.log("Sup fam boleto mera naam Vanilla JS")
+var convertButton=document.querySelector("#convertButton");
+var textToConvert=document.querySelector("#textToConvert");
+var outputText=document.querySelector("#outputText");
 
-// //input prompt
-// var username=prompt("Working prompt script asking to enter a username")
+convertButton.addEventListener('click', clickHandler)
 
-// //alert message
-// alert("Working alert notification for "+ username)
+function clickHandler()
+{
+    outputText.innerText=textToConvert.value;
+};
+
