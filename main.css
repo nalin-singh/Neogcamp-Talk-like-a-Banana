@@ -20,7 +20,7 @@
   align-items: center;
   align-content: center;
   width: 45%;
-  min-width: 300px;
+  min-width: 320px;
   justify-content: space-between;
 }
 
@@ -39,7 +39,7 @@ em {
 }
 .textToConvert {
   max-width: 600px;
-  min-width: 300px;
+  min-width: 320px;
   min-height: 120px;
   border-radius: 4px;
   border-style: solid;
@@ -60,11 +60,11 @@ em {
 }
 img {
   width: 45%;
-  min-width: 300px;
+  min-width: 320px;
 }
 .outputText {
   max-width: 100%;
-  min-width: 360px;
+  min-width: 320px;
   max-height: fit-content;
   text-align: center;
   color: #3b3b3b;
