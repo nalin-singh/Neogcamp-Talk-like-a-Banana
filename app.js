@@ -6,7 +6,7 @@ convertButton.addEventListener('click', clickHandler)
 
 function errorMessage(error){
     console.log(error)
-    alert("Something ain't working right!")
+    alert("Hi, New alert here!")
 }
 
 function clickHandler()
